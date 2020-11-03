@@ -1,0 +1,140 @@
+/* .navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} */
+
+h3,
+.navbar-brand {
+  font-family: "Lobster Two", cursive, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.navbar {
+  min-height: 60px;
+  width: 100%;
+}
+
+#general {
+  padding-top: 60px;
+  margin: auto;
+  width: 95%;
+}
+
+.div-intro {
+  margin: auto;
+  display: flex;
+  padding: 30px 0px 10px;
+  margin: 0px 0px;
+  flex-direction: column; /*change this*/
+}
+
+.div-intro > .intro-img-section {
+  display: none;
+}
+
+.div-intro > #paragraph-break {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+}
+
+.div-intro > #intro-text {
+  text-align: center;
+  /* flex-shrink: 3; */
+}
+
+.div-achievement > dl {
+  text-align: center;
+  padding: 5px 0px 0px;
+}
+
+.div-skill {
+  padding: 0px 0 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0px 10px 10px 10px;
+}
+
+.grid-item {
+  border: 0px;
+  padding: 10px;
+  font-size: 1.05em;
+  text-align: center;
+}
+
+.div-contact > dl {
+  text-align: center;
+  padding: 5px 0px 0px;
+}
+
+.end-img {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(52, 58, 64);
+  color: white;
+  text-align: center;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #general {
+    padding-top: 60px;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #general {
+    padding-top: 60px;
+    margin: auto;
+    width: 60%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .div-intro {
+    margin: auto;
+    display: flex;
+    padding: 30px 0px 10px;
+    margin: 0px 0px;
+    flex-direction: column;
+  }
+
+  #general {
+    width: 50%;
+  }
+
+  .div-intro > .intro-img-section {
+    display: inline;
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px 15x 10px 10px;
+  }
+
+  .grid-item {
+    border: 0px;
+    padding: 15px 0 15px;
+    font-size: 1.05em;
+    text-align: center;
+  }
+}
