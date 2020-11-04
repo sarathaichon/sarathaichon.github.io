@@ -4,6 +4,10 @@
   padding: 0;
 } */
 
+img {
+    height: 100% !important;
+}
+
 h3,
 .navbar-brand {
   font-family: "Lobster Two", cursive, "Times New Roman", Times, serif;
@@ -35,7 +39,7 @@ h3,
 
 .div-intro > #paragraph-break {
   /* width: 100%; */
-  width: 100vw;
+/*   width: 100vw; */
   display: flex;
   justify-content: center;
 }
@@ -75,7 +79,7 @@ h3,
 .end-img {
   display: flex;
   justify-content: center;
-  width: 100vw;
+/*   width: 100vw; */
 }
 
 footer {
